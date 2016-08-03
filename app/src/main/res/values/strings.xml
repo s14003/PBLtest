@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PBLTest</string>
+    <string name="btnReturn">戻る</string>
+    <string name="product_view">商品画面一覧です</string>
+</resources>
