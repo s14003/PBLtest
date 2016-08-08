@@ -75,6 +75,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void createAccount() {
+        Log.d("createAccount", "call");
         Intent intent = new Intent(MainActivity.this, CreateAccount.class);
         startActivity(intent);
     }
