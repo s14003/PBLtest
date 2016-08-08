@@ -11,6 +11,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import s14003.std.it_college.ac.jp.pbltest.Account.CreateAccount;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -73,6 +75,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void createAccount() {
+        Log.d("createAccount", "call");
         Intent intent = new Intent(MainActivity.this, CreateAccount.class);
         startActivity(intent);
     }

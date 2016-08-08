@@ -1,5 +1,8 @@
 package s14003.std.it_college.ac.jp.pbltest;
 
+import android.content.ContentValues;
+import android.content.Context;
+import android.database.sqlite.SQLiteDatabase;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -12,15 +15,22 @@ import android.widget.Toast;
 
 public class ProductView extends AppCompatActivity {
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_product_view);
 
-        final String[] item = new String[]{
+    }
+        /*final String[] item = new String[]{
                 "鉛筆",
                 "消しゴム",
-                "本"
+                "本",
+                "下敷き",
+                "鉛筆",
+                "消しゴム"
+
         };
 
         // 追加するアイテムを生成する
@@ -62,6 +72,6 @@ public class ProductView extends AppCompatActivity {
                 Toast.makeText(ProductView.this, "戻ります", Toast.LENGTH_SHORT).show();
                 finish();
             }
-        });
-    }
+        });*/
+
 }

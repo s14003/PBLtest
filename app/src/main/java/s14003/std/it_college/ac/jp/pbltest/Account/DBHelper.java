@@ -1,8 +1,10 @@
-package s14003.std.it_college.ac.jp.pbltest;
+package s14003.std.it_college.ac.jp.pbltest.Account;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+
+import s14003.std.it_college.ac.jp.pbltest.Account.Accounts;
 
 
 public class DBHelper extends SQLiteOpenHelper {
