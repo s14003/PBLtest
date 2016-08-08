@@ -1,4 +1,4 @@
-package s14003.std.it_college.ac.jp.pbltest;
+package s14003.std.it_college.ac.jp.pbltest.Account;
 
 /**
  * Created by s14003 on 16/08/02.
